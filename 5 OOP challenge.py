@@ -18,5 +18,5 @@ class Bank:
     def __str__(self):
         return f"The owner of the account is {exampl1.owner()}, with a balance of ${exampl1.balance()}"
 exampl1 = Bank("John Cena", 1000000)
-exampl1.deposit(348734983)
+exampl1.withdrawal(500)
 # print()

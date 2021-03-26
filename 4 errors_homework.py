@@ -6,8 +6,9 @@ def problem_1():
             x = i**2
             print(x)
         except TypeError:
-            print("You fool! You can't square an integer")
+            print("You fool! You can't square a string")
             break
+
 # Problem 2:
 a = 5
 b = 0
@@ -30,4 +31,3 @@ def problem_3():
             break
         finally:
             print("hey wait a minute what am I doing here")
-problem_3()
