@@ -3,7 +3,7 @@ import bs4
 import lxml
 import re
 from PIL import Image
-'''
+
 website = get('https://en.wikipedia.org/wiki/Estonia')
 
 unpacked = bs4.BeautifulSoup(website.text,'lxml')
@@ -11,8 +11,8 @@ tableofcontents = []
 for toc in unpacked.select('.toctext'):
     tableofcontents.append(toc.text)
 print(tableofcontents)
-'''
 
+'''
 images = []
 no404 = True
 while no404:
@@ -32,6 +32,6 @@ while no404:
     no404 = False
 for picture in images:
     print(picture['src'])
-
+'''
 
 
